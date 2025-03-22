@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cc52d2efe0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">SIVAPALAN<span style="color: RED;"> R</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+                
+             </nav>
+             <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Sivapalan R</span> <br>From Ramanathapuram</h1>
+                <a href="" class="btn">Downlod Cv</a>
+                <div class="social-icons">
+                    <a href="mailto:sivapalan.r8703@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="http://www.linkedin.com/in/sivapalanr"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/SIVAPALAN-R"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/share/1Xn9iVatf1/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://x.com/SivaRegunath?s=08" ><i class="fa-brands fa-square-x-twitter"></i></a>
+                    
+                </div>
+              </div>
+        </div>
+    </div>
+     <!--------- About-------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/siva.jpg" alt="images">
+                </div>
+
+                <div class="about-col-2">
+                   <h1 class="sub-tittle">About Me</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo distinctio voluptatum unde numquam. Explicabo animi incidunt quo earum assumenda labore inventore voluptas asperiores tempore hic soluta similique reprehenderit, adipisci fuga.</p>
+                <div class="tab-tittles">
+                    <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        
+                        <li><span>Frontend Development</span><br>HTML, CSS, JavaScript, Bootstrap, React.js</li>
+                        <li><span>Backend Development</span><br>JAVA,MySQL</li>
+                        <li><span>Tools & Platforms</span><br>Git, GitHub, ChatGPT, GitHub Copilot</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                    <li><span>M.A.M School of Engineering | Trichy, Tamil Nadu</span><br>Bachelor of Engineering – Computer Science and Engineering <br>Oct 2020 – Jul 2024</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        
+                        <li><span>CodTech IT Solutions | Frontend Developer Intern</span> <br>Oct 2024 – Nov 2024 <br>Designed and developed responsive user interfaces for dynamic applications, including:<br>
+                            o Quiz Application: Created an interactive UI for a self-assessment tool.<br>
+                            o Weather Dashboard: Developed a real-time weather monitoring interface<br>
+                            Implemented front-end technologies such as HTML, CSS, JavaScript, and Bootstrap for optimal
+                            performance.<br>
+                           Enhanced development efficiency by integrating tools like ChatGPT and GitHub Copilot.<br>
+                           Collaborated within a team environment, strengthening problem-solving and communication skills.<br> 
+
+                          </ul>
+                    </div>
+
+                 </div> 
+            </div>
+        </div>
+    </div>
+
+
+       <!---------Projects-------->
+
+       <div id="projects">
+        <div class="container">
+            <h1 class="sub-tittle">My Projects</h1>
+            <div class="project-list">
+                <div>
+                    
+                    <h2>Parking Management System</h2>
+                        <p>Real-time slot booking and availability tracking, integrated alert systems for user notifications, car entry/exit management with a frosted-glass effect for enhanced aesthetics, and a responsive design built with HTML, CSS, and JavaScript for cross-platform compatibility.<p></p>
+                            <a href="#">Learn More</a>
+                      
+                    </div>
+                    <div>
+                        <h2>Car Booking & Sales Front-End Website</h2>
+                        <p>Developed a responsive car sales website showcasing various car models and features.
+                            Built with HTML, CSS, and JavaScript, ensuring cross-platform compatibility and an interactive user experience.
+                            Integrated filtering options and modal pop-ups for detailed car information and seamless navigation.</p>
+                            <a href="#">Learn More</a>
+                      </div>
+
+                    <div>
+                    
+                        <h2>Parking Management System</h2>
+                        <p>Designed a dynamic web-based application for real-time parking slot management.<br>
+                            Features included:
+                            Real-time slot booking and availability tracking with visual indicators (booked: brown; available:
+                            green).<br>
+                            o Integrated alert systems for user notifications.<br>
+                            o Car entry/exit management and a frosted-glass effect for enhanced aesthetics.<br>
+                            Built with HTML, CSS, and JavaScript to ensure a responsive and cross-platform experience<br></p>
+                            <a href="#">Learn More</a>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+       <!---------Contact-------->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+            <h1 class="sub-tittle">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>sivapalan.r8703@gmail.com</p>
+            <p> <i class="fa-solid fa-phone"></i>9597175457</p>
+            <div class="social-icons">
+                <a href="mailto:sivapalan.r8703@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="http://www.linkedin.com/in/sivapalanr"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/SIVAPALAN-R"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/share/1Xn9iVatf1/"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://x.com/SivaRegunath?s=08" ><i class="fa-brands fa-square-x-twitter"></i></a>
+                
+            </div>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="mail" name="Mail" placeholder="Your Mail" required>
+                <textarea name="message" rows="6" placeholder=" Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+        </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Sivapalan R <i class="fa-solid fa-heart"></i></p>
+        </div>
+       </div>
+
+       
+       
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+    
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    
+    
+</body>
+</html>
