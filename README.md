@@ -32,6 +32,12 @@ This portfolio is built to highlight my journey as a frontend developer, display
   
 3. Open `index.html` in your browser to preview the site.
 
+
+##Preview
+
+![Home](https://github.com/user-attachments/assets/4920dc2d-40b4-465b-a27f-4dc0af52ffd3)
+
+
 ## 🌐 Live Demo
 You can check out the live version of my portfolio here: [Your Portfolio Link]
 
