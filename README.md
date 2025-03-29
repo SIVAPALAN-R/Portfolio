@@ -24,7 +24,7 @@ This portfolio is built to highlight my journey as a frontend developer, display
 ## 📂 Project Setup
 1. Clone the repository:
    
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/SIVAPALAN-R/portfolio.git
   
 2. Navigate to the project directory:
 
