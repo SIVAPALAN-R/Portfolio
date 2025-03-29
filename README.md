@@ -39,11 +39,11 @@ This portfolio is built to highlight my journey as a frontend developer, display
 
 
 ## 🌐 Live Demo
-You can check out the live version of my portfolio here: [https://sivapalan-r.github.io/Portfolio/]
+You can check out the live version of my portfolio here: https://sivapalan-r.github.io/Portfolio/
 
 ## 📞 Contact Me
 - 📧 Email: sivapalan.r8703@gmail.com
-- 🌐 Portfolio: [Your Portfolio Link]
+- 🌐 Portfolio: https://sivapalan-r.github.io/Portfolio/
 - 🔗 LinkedIn: http://www.linkedin.com/in/sivapalanr
 
 Feel free to explore and give feedback! 🚀
