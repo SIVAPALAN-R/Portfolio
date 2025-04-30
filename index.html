@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="images/icon.avif" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cc52d2efe0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">SIVAPALAN<span style="color: RED;"> R</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+             </nav>
+             <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Sivapalan R</span> <br>From Ramanathapuram</h1>
+                <a href="Sivapalan R FrontEnd Resume.pdf" class="btn">Downlod Cv</a>
+                <div class="social-icons">
+                    <a href="https://mail.google.com/"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="http://www.linkedin.com/in/sivapalanr"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/SIVAPALAN-R"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/share/1Xn9iVatf1/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/siva_regunath?igsh=MTcxajBpN2J4NXFsdw=="><i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://x.com/SivaRegunath?s=08" ><i class="fa-brands fa-square-x-twitter"></i></a>
+                    
+                </div>
+              </div>
+        </div>
+    </div>
+     <!--------- About-------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/siva.jpg" alt="images">
+                </div>
+
+                <div class="about-col-2">
+                   <h1 class="sub-tittle">About Me</h1>
+                   <p>Highly motivated and detail-oriented Frontend Developer with hands-on experience in building responsive, user-centric web applications
+                    through academic projects and internships. Proficient in React.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Bootstrap, and integrating
+                    RESTful APIs. Experienced in Git and leveraging tools like ChatGPT and GitHub to enhance productivity and code quality. Passionate
+                    about crafting seamless, mobile-first user experiences and ensuring high-performance, cross-browser compatible applications. A
+                    collaborative team player with strong problem-solving and communication skills, eager to contribute to innovative and dynamic
+                    development teams.
+                    </p>
+                <div class="tab-tittles">
+                    <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        
+                        <li><span>Frontend Development</span><br>HTML, CSS, JavaScript, Bootstrap, React.js</li>
+                        <li><span>Backend Development</span><br>JAVA,MySQL</li>
+                        <li><span>Tools & Platforms</span><br>Git, GitHub, ChatGPT, GitHub Copilot</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                    <li><span>M.A.M School of Engineering | Trichy, Tamil Nadu</span><br>Bachelor of Engineering – Computer Science and Engineering <br>Oct 2020 – Jul 2024</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        
+                        <li><span>CodTech IT Solutions | Frontend Developer Intern</span> <br>Oct 2024 – Nov 2024 <br>Designed and developed responsive user interfaces for dynamic applications, including:<br>
+                            o Quiz Application: Created an interactive UI for a self-assessment tool.<br>
+                            o Weather Dashboard: Developed a real-time weather monitoring interface<br>
+                            Implemented front-end technologies such as HTML, CSS, JavaScript, and Bootstrap for optimal
+                            performance.<br>
+                           Enhanced development efficiency by integrating tools like ChatGPT and GitHub Copilot.<br>
+                           Collaborated within a team environment, strengthening problem-solving and communication skills.<br> 
+
+                          </ul>
+                    </div>
+
+                 </div> 
+            </div>
+        </div>
+    </div>
+
+
+       <!---------Projects-------->
+
+       <div id="projects">
+        <div class="container">
+            <h1 class="sub-tittle">My Projects</h1>
+            <div class="project-list">
+
+                <div class="project-box">
+                    <img src="images/E-commerce.jpg" alt="Parking Management System">
+                    <h2>E-Commerce | React.js</h2>
+                    <p>Built and deployed a responsive e-commerce site with React, TypeScript, Context API, and Fake Store API, featuring dynamic product pages, category filters, and global state management, hosted on Vercel.</p>
+                    <div class="links">
+                        <a href="https://github.com/SIVAPALAN-R/ReactProject" target="_blank" class="github-link">GitHub</a>
+                        <a href="https://react-project-beige-seven.vercel.app/" target="_blank" class="website-link">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-box">
+                    <img src="images/restarunt.avif" alt="Quiz App">
+                    <h2>Restarunt Website</h2>
+                    <p>"SR Restaurant offers a delightful dining experience with a diverse menu of delicious cuisines. Our website provides easy online reservations, menu browsing, and special offers to enhance your visit. Enjoy great food, warm ambiance, and excellent service!"</p>
+                    <div class="links">
+                        <a href="https://github.com/SIVAPALAN-R/RESTAURANT" target="_blank" class="github-link">GitHub</a>
+                        <a href="https://sivapalan-r.github.io/RESTAURANT/" target="_blank" class="website-link">Live Demo</a>
+                    </div>
+                </div>
+    
+                <div class="project-box">
+                    <img src="images/car parking.jpg" alt="Parking Management System">
+                    <h2>Parking Management System</h2>
+                    <p>Real-time slot booking, integrated alerts, and a frosted-glass UI for enhanced aesthetics.</p>
+                    <div class="links">
+                        <a href="https://github.com/SIVAPALAN-R/Parking-Management-System" target="_blank" class="github-link">GitHub</a>
+                        <a href="https://sivapalan-r.github.io/Parking-Management-System/" target="_blank" class="website-link">Live Demo</a>
+                    </div>
+                </div>
+    
+                <div class="project-box">
+                    <img src="images/car sales.webp" alt="Car Booking & Sales">
+                    <h2>Car Booking & Sales Website</h2>
+                    <p>A sleek, responsive front-end for car sales with interactive filtering and modal pop-ups.</p>
+                    <div class="links">
+                        <a href="https://github.com/SIVAPALAN-R/car-sale-front-end-website" target="_blank" class="github-link">GitHub</a>
+                        <a href="https://sivapalan-r.github.io/car-sale-front-end-website/" target="_blank" class="website-link">Live Demo</a>
+                    </div>
+                </div>
+    
+                
+
+                <div class="project-box">
+                    <img src="images/quizz.png" alt="Parking Management System">
+                    <h2>Quizz App</h2>
+                    <p> Designed and developed an interactive UI for a Quiz Application, enabling users to take self-assessment quizzes.</p>
+                    <div class="links">
+                        <a href="https://github.com/SIVAPALAN-R/Quizz" target="_blank" class="github-link">GitHub</a>
+                        <a href="https://sivapalan-r.github.io/Quizz/" target="_blank" class="website-link">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-box">
+                    <img src="images/wheather.png" alt="Parking Management System">
+                    <h2>Weather App</h2>
+                    <p> Built a real-time Weather Dashboard with a responsive interface to display current weather conditions.</p>
+                    <div class="links">
+                        <a href="https://github.com/SIVAPALAN-R/whetherApp" target="_blank" class="github-link">GitHub</a>
+                        <a href="https://sivapalan-r.github.io/whetherApp/" target="_blank" class="website-link">Live Demo</a>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="see-more-container">
+                <a href="https://github.com/SIVAPALAN-R" class="see-more-btn">See More Projects</a>
+            </div>
+    
+        </div>
+    </div>
+    
+
+       <!---------Contact-------->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+            <h1 class="sub-tittle">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>sivapalan.r8703@gmail.com</p>
+            <p> <i class="fa-solid fa-phone"></i>9597175457</p>
+            <div class="social-icons">
+                <a href="https://mail.google.com/"><i class="fa-solid fa-envelope"></i></a>
+                <a href="http://www.linkedin.com/in/sivapalanr"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/SIVAPALAN-R"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/share/1Xn9iVatf1/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/siva_regunath?igsh=MTcxajBpN2J4NXFsdw=="><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://x.com/SivaRegunath?s=08" ><i class="fa-brands fa-square-x-twitter"></i></a>
+                
+            </div>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="mail" name="Email" placeholder="Your Mail" required>
+                <textarea name="Message" rows="6" placeholder=" Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Sivapalan R <i class="fa-solid fa-heart"></i></p>
+        </div>
+       </div>
+
+       
+       
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+    
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx1QkXIe1XEDRTvWPYg7OzRJ8crgLd3rtDjh5rDg7ftqFb91N5Dqkc_kxIhOLZWf9Be/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
